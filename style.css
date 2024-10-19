@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ body{
+   background-color: rgb(217, 224, 220);
+
+ } 
+.container {
+    max-width: 600px;
+    margin: 100px auto;
+    padding: 20px;
+    border-radius: 0.5rem;
+    text-align: center;
+    border: 1px solid rgb(22, 71, 91);
+   background-color: white;
+}
+
+label {
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: rgb(36, 58, 86);
+
+}
+
+select {
+    padding: 15px;
+    width: 58%;
+    margin-bottom: 8px;
+    margin-top: 16px;
+    background-color: rgb(242, 245, 253);
+
+}
+
+input {
+    padding: 15px;
+    width: 65%;
+    margin-bottom: 8px;
+    margin-top: 16px;
+}
+
+h1 {
+  
+    font-family: sans-serif;
+    color: rgb(4, 77, 19);
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 2.5rem;
+    line-height: 3rem;
+}
+
+#result {
+    font: sans-serif;
+    color: rgb(4, 76, 17);
+    font-size: 2.5rem;
+    text-align: center;
+    line-height: 3.5rem;
+    margin-top: 2rem;
+    padding: 0 6rem;
+    letter-spacing: normal;
+    margin-top: 10px;
+    
+
+}
+
+button {
+    cursor: pointer;
+    border: yellow;
+    border-radius: 0.5rem;
+     background-color: rgb(103, 155, 89); 
+    height: 3rem;
+    width: 8rem;
+    font-size: 1rem;
+    margin-top: 10px;
+    color: rgb(139, 4, 4);
+}
+
+
+
+
+/* Responsive styles */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    label {
+        font-size: 1.2rem;
+        padding: 0.6rem;
+    }
+
+    button {
+        padding: 0.5rem;
+        width: 100%;
+    }
+}
+
+@media (max-width: 300px) {
+    #container {
+        padding: 1rem;
+    }
+
+    input {
+        padding: 0.4rem;
+        font-size: 0.6rem;
+    height: 0.8rem;
+    }
+select{
+    height: 1rem;
+}
+    h1 {
+        font-size: 1.3rem;
+    }
+
+    label {
+        font-size: 0.7rem;
+        padding: 0.4rem;
+        margin-bottom: 10x;
+    }
+    #result{
+        font-size: 1.3rem;
+        display: inline;
+        padding: 0.4rem;
+    }
+
+    button {
+        font-size: 0.8rem;
+    }
+}
